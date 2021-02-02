@@ -5,4 +5,4 @@ socket.on("message", (msg, rinfo)=>{
   console.log(`Server got: ${msg} from ${rinfo.address}:${rinfo.port}`);
 });
 
-socket.bind(8081);
+socket.bind(3000);
